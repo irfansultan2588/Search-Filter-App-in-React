@@ -4,9 +4,7 @@ const SearchFilter = () => {
 
     const [inpValue, inpSetValue] = useState("")
     const myarr = ["Irfan", "Tabish", "Mohsin", "Shariq", "Ibrar", "Shayan", "Ahsan", "Hashir", "Sunny"]
-
     const tolowerCase = inpValue.toLowerCase()
-
 
     return (
         <>
@@ -23,11 +21,6 @@ const SearchFilter = () => {
                 </div>
 
             </div>
-
-
-
-
-
         </>
     )
 }
